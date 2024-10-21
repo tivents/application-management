@@ -17,7 +17,7 @@ jobs:
 
       # Set env files
       - name: Copy .env
-        run: cp env-example .env
+        run: cp .env.example .env
 
       # Install dependencies
       - name: Install Dependencies
